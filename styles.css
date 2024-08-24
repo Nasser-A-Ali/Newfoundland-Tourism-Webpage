@@ -1,0 +1,481 @@
+/* GLOBAL CSS */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgb(178, 253, 178),
+    rgb(255, 255, 255),
+    rgb(251, 213, 219)
+  );
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-box {
+  width: 1200px;
+  min-height: auto;
+  background-color: white;
+  margin: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 1px 1px 7px 0px #565656;
+}
+
+li {
+  text-align: left;
+}
+
+/* HEADER CSS */
+
+header {
+  width: 1200px;
+  height: 150px;
+  background-image: url(images/petty-harbor.jpeg);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  padding: 30px 0px 0px 60px;
+}
+
+header h1 {
+  float: left;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+header img {
+  width: 1200px;
+  height: 150px;
+  background-size: contain;
+}
+
+/* NAV CSS */
+
+nav {
+  width: 1200px;
+  height: 50px;
+  padding: 10px 0px;
+  background-color: whitesmoke;
+  font-weight: 700;
+  border-bottom: 1px solid grey;
+}
+
+nav a:link {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 5px;
+  /* this is looking inconventional to balance the letter spacing */
+  padding: 0px 5px 0px 10px;
+}
+nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: none;
+  box-shadow: 1px 1px 7px 0px #565656;
+  border-radius: 5px;
+}
+
+/* MAIN CSS */
+
+.perfect-main {
+  width: 1200px;
+  min-height: 750px;
+  padding: 30px 50px 0px 50px;
+}
+
+.index-main {
+  width: 1200px;
+  height: auto;
+  padding: 30px 50px 0px 50px;
+}
+
+.construction-main {
+  width: 1200px;
+  height: 700px;
+  padding: 50px 0px;
+}
+
+main a:link {
+  text-decoration: underline;
+  color: black;
+}
+main a:visited {
+  text-decoration: none;
+  color: black;
+}
+main a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 50px;
+  color: white;
+  background-color: lightgrey;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 1px 1px 7px 0px #565656;
+  transform: scale(1.1);
+}
+
+/* FOOTER CSS */
+
+footer {
+  width: 1200px;
+  height: 90px;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 1px solid grey;
+  float: left;
+  clear: both;
+}
+
+.footer-page-links {
+  float: left;
+  padding: 35px 0px;
+  margin-left: 20px;
+}
+
+.footer-page-links a:link {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  margin: 0px 15px;
+  letter-spacing: 5px;
+  /* this is looking unconventional to balance the letter spacing */
+  padding: 0px 5px 0px 10px;
+}
+.footer-page-links a:visited {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.footer-page-links a:hover {
+  text-decoration: none;
+  box-shadow: 1px 1px 7px 0px #565656;
+  border-radius: 5px;
+}
+
+.footer-social-links {
+  float: right;
+  padding: 25px 30px;
+}
+
+.icon-box {
+  margin: 0px 15px;
+  float: right;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+}
+
+.footer-social-links a:link {
+  text-decoration: none;
+}
+.footer-social-links a:visited {
+  text-decoration: none;
+}
+.footer-social-links a:hover {
+  text-decoration: none;
+}
+
+/* INDEX SPECIFIC CSS */
+
+.index-box-first {
+  width: 1100;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px 0px #565656;
+}
+
+.index-box-first li {
+  margin-left: 20px;
+}
+
+.left-index-box {
+  width: 550px;
+  height: 400px;
+  float: left;
+  padding: 25px 40px;
+  text-align: left;
+}
+
+.left-index-box p {
+  text-align: justify;
+}
+
+.index-box {
+  width: 1100;
+  height: 225px;
+  background-color: white;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px 0px #565656;
+}
+.stamp-div-text {
+  width: 400px;
+  height: 225px;
+  text-align: left;
+  margin-inline: 10px;
+  padding: 18px 5px;
+  float: left;
+}
+.stamp-div-text p {
+  text-align: justify;
+}
+.events-text-box {
+  height: 225px;
+  width: 550px;
+  padding: 35px 30px;
+  text-align: left;
+  float: left;
+}
+
+.shamrock-image {
+  height: 225px;
+  width: 550px;
+  float: right;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.puffin-image {
+  height: 400px;
+  width: 550px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.stamp-image {
+  height: 225px;
+  margin-right: 10px;
+  float: left;
+}
+#img1 {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* PERFECT DAY SPECIFIC CSS */
+
+.perfect-day-main {
+  width: 1200px;
+  height: auto;
+}
+
+.large-box {
+  width: 1200px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.smaller-boxes {
+  width: 1200px;
+  float: left;
+}
+
+.smaller-boxes h1 {
+  color: whitesmoke;
+}
+
+.smaller-box1 {
+  height: 335px;
+  width: 350px;
+  border-radius: 10px;
+  background-image: url(images/george-st.jpeg);
+  background-size: cover;
+  float: left;
+  box-shadow: 1px 1px 7px 0px #565656;
+  text-align: center;
+  line-height: 3em;
+}
+
+.smaller-box2 {
+  height: 335px;
+  width: 350px;
+  border-radius: 10px;
+  background-image: url(images/brisket.jpeg);
+  background-size: cover;
+  float: left;
+  margin-inline: 25px;
+  box-shadow: 1px 1px 7px 0px #565656;
+  text-align: center;
+  line-height: 3em;
+}
+
+.smaller-box3 {
+  height: 335px;
+  width: 350px;
+  border-radius: 10px;
+  background-image: url(images/quidi-vidi.jpeg);
+  background-size: cover;
+  float: left;
+  box-shadow: 1px 1px 7px 0px #565656;
+  text-align: center;
+  line-height: 3em;
+}
+
+.smaller-box1:hover,
+.smaller-box2:hover,
+.smaller-box3:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.anytime-activities-box {
+  height: 320px;
+  width: 540px;
+  border-radius: 10px;
+  float: left;
+  text-align: left;
+  padding: 10px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 7px 0px #565656;
+}
+
+.anytime-activities-box-right {
+  height: 320px;
+  width: 540px;
+  border-radius: 10px;
+  float: left;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 1px 1px 7px 0px #565656;
+}
+
+.anytime-activities-box ul {
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+}
+.anytime-activities-box-right ul {
+  text-align: center;
+  list-style: none;
+}
+
+.anytime-activities-box img {
+  height: 300px;
+  width: 225px;
+  float: left;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+}
+
+.anytime-activities-box-right img {
+  height: 300px;
+  width: 225px;
+  float: right;
+  padding-left: 10px;
+  border-top-right-radius: 10px;
+}
+
+#float-right-button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+/* EVENT SPECIFIC CSS */
+
+.justify-ptag {
+  width: 1100px;
+  text-align: justify;
+}
+
+.entire-row{
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.events-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 1000px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.events-table thead tr {
+  background: linear-gradient(
+    to right,
+    rgb(178, 253, 178),
+    white,
+    rgb(251, 213, 219)
+  );
+  color: rgb(45, 45, 45);
+  text-align: left;
+  font-weight: bold;
+}
+
+.events-table th,
+.events-table td {
+  padding: 12px 15px;
+  max-width: 200px;
+}
+
+.events-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.events-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.events-table tbody tr:last-of-type {
+  border-bottom: 2px solid #004eb5;
+}
+
+.events-table tbody tr.next-event-row {
+  font-weight: bold;
+  color: rgb(0, 132, 0);
+}
+#green-link {
+  font-weight: bold;
+  color: rgb(0, 132, 0);
+}
+
+.events-table tbody td.image-cell {
+  color: #004eb5;
+  width: 200px;
+  padding: 20px 40px 20px 40px;
+}
+
+.events-table img {
+  border: 1px solid lightgray;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+
+/* UNDER CONSTRUCTION PAGES CSS */
+
+.construction-div {
+  width: 1100px;
+  height: 700px;
+}
+
+.under-construction {
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px 0px #565656;
+  height: 600px;
+  width: 800px;
+}
